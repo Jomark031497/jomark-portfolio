@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/jomark-portfolio/static/css/main.3a4d39f3.chunk.css",
+    "main.js": "/jomark-portfolio/static/js/main.38b2b8e8.chunk.js",
+    "main.js.map": "/jomark-portfolio/static/js/main.38b2b8e8.chunk.js.map",
+    "runtime-main.js": "/jomark-portfolio/static/js/runtime-main.2b713253.js",
+    "runtime-main.js.map": "/jomark-portfolio/static/js/runtime-main.2b713253.js.map",
+    "static/js/2.7de4d663.chunk.js": "/jomark-portfolio/static/js/2.7de4d663.chunk.js",
+    "static/js/2.7de4d663.chunk.js.map": "/jomark-portfolio/static/js/2.7de4d663.chunk.js.map",
+    "index.html": "/jomark-portfolio/index.html",
+    "precache-manifest.65ae552158d4121c28499c72de44abfc.js": "/jomark-portfolio/precache-manifest.65ae552158d4121c28499c72de44abfc.js",
+    "service-worker.js": "/jomark-portfolio/service-worker.js",
+    "static/css/main.3a4d39f3.chunk.css.map": "/jomark-portfolio/static/css/main.3a4d39f3.chunk.css.map",
+    "static/js/2.7de4d663.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.7de4d663.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/jomark-portfolio/static/media/coffee-apple.2dd213aa.jpg",
+    "static/media/jomark.jpg": "/jomark-portfolio/static/media/jomark.6fa3728b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b713253.js",
+    "static/js/2.7de4d663.chunk.js",
+    "static/css/main.3a4d39f3.chunk.css",
+    "static/js/main.38b2b8e8.chunk.js"
+  ]
+}
