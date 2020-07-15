@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+notes.txt
+
 # production
 /build
 

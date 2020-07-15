@@ -13,15 +13,12 @@ import {
   ListItemText,
 } from "@material-ui/core";
 import MobileRightMenuSlider from "@material-ui/core/Drawer";
-import {
-  ArrowBack,
-  Home,
-  AssignmentInd,
-  Apps,
-  ContactMail,
-} from "@material-ui/icons";
+import { ArrowBack, Home, Apps, ContactMail } from "@material-ui/icons";
+import MenuIcon from "@material-ui/icons/Menu";
+import CodeIcon from "@material-ui/icons/Code";
 import { makeStyles } from "@material-ui/styles";
 import avatar from "../portfolio-project-files/jomark.jpg";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -51,18 +48,22 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
+    listPath: "/jomark-portfolio/",
   },
   {
-    listIcon: <AssignmentInd />,
-    listText: "Resume",
+    listIcon: <CodeIcon />,
+    listText: "Skills",
+    listPath: "/jomark-portfolio/skills",
   },
   {
     listIcon: <Apps />,
     listText: "Portfolio",
+    listPath: "/jomark-portfolio/portfolio",
   },
   {
     listIcon: <ContactMail />,
     listText: "Contacts",
+    listPath: "/jomark-portfolio/contacts",
   },
 ];
 
@@ -83,11 +84,15 @@ const Navbar = () => {
       className={classes.menuSlider}
       onClick={toggleSlider(slider, false)}
     >
+      <IconButton>
+        <ArrowBack style={{ color: "tomato" }} />
+      </IconButton>
+
       <Avatar src={avatar} alt="Jomark Pangan" className={classes.avatar} />
       <Divider />
       <List>
         {menuItems.map((item, key) => (
-          <ListItem button key={key}>
+          <ListItem button key={key} component={Link} to={item.listPath}>
             <ListItemIcon className={classes.listItem}>
               {item.listIcon}
             </ListItemIcon>
@@ -107,7 +112,7 @@ const Navbar = () => {
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <MenuIcon style={{ color: "tomato" }} />
             </IconButton>
 
             <Typography variant="h5">Portfolio</Typography>
