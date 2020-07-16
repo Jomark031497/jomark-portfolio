@@ -19,7 +19,7 @@ import CodeIcon from "@material-ui/icons/Code";
 import { makeStyles } from "@material-ui/styles";
 import avatar from "../portfolio-project-files/jomark.jpg";
 import { Link } from "react-router-dom";
-import Footer from "./Footer";
+import Footer from "./Footer"
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
@@ -115,9 +115,7 @@ const Navbar = () => {
               <MenuIcon style={{ color: "tomato" }} />
             </IconButton>
 
-            <Typography variant="h5" color="secondary">
-              Portfolio
-            </Typography>
+            <Typography variant="h5" color="secondary">Portfolio</Typography>
             <MobileRightMenuSlider
               open={state.right}
               onClose={toggleSlider("right", false)}

@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Box, Grid, Typography, TextField, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
-// eslint-disable-next-line
 import * as emailjs from "emailjs-com";
 
 const useStyles = makeStyles((theme) => ({
