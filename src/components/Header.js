@@ -26,6 +26,9 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     zIndex: 1,
   },
+  footer: {
+    alignItems: "center",
+  },
 }));
 const Header = () => {
   const classes = useStyles();
@@ -34,9 +37,9 @@ const Header = () => {
     <>
       <Box className={classes.typedContainer}>
         <Grid container justify="center">
-        <Avatar src={avatar} alt="Jomark" className={classes.avatar} />
+          <Avatar src={avatar} alt="Jomark" className={classes.avatar} />
         </Grid>
-        
+
         <Typography variant="h4" className={classes.title}>
           <Typed strings={["Jomark Pangan"]} typeSpeed={40} />
         </Typography>
@@ -50,8 +53,6 @@ const Header = () => {
           />
         </Typography>
       </Box>
-
-     
     </>
   );
 };

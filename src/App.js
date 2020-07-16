@@ -14,13 +14,17 @@ function App() {
   return (
     <>
       <CssBaseline />
-      <Navbar />
-      <Switch>
-        <Route exact path="/jomark-portfolio/" component={Home} />
-        <Route exact path="/jomark-portfolio/portfolio" component={Portfolio} />
-        <Route exact path="/jomark-portfolio/skills" component={Skills} />
-        <Route exact path="/jomark-portfolio/contacts" component={Contacts} />
-      </Switch>
+        <Navbar />
+        <Switch>
+          <Route exact path="/jomark-portfolio/" component={Home} />
+          <Route
+            exact
+            path="/jomark-portfolio/portfolio"
+            component={Portfolio}
+          />
+          <Route exact path="/jomark-portfolio/skills" component={Skills} />
+          <Route exact path="/jomark-portfolio/contacts" component={Contacts} />
+        </Switch>
     </>
   );
 }

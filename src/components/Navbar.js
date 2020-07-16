@@ -19,11 +19,11 @@ import CodeIcon from "@material-ui/icons/Code";
 import { makeStyles } from "@material-ui/styles";
 import avatar from "../portfolio-project-files/jomark.jpg";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme) => ({
   appBar: {
     background: "#222",
-    color: "tan",
   },
 
   menuSlider: {
@@ -108,19 +108,22 @@ const Navbar = () => {
 
   return (
     <>
-      <Box component="nav">
+      <Box component="nav" className={classes.boxContainer}>
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
               <MenuIcon style={{ color: "tomato" }} />
             </IconButton>
 
-            <Typography variant="h5">Portfolio</Typography>
+            <Typography variant="h5" color="secondary">
+              Portfolio
+            </Typography>
             <MobileRightMenuSlider
               open={state.right}
               onClose={toggleSlider("right", false)}
             >
               {sideList("right")}
+              <Footer />
             </MobileRightMenuSlider>
           </Toolbar>
         </AppBar>

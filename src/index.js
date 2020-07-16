@@ -8,9 +8,16 @@ const theme = createMuiTheme({
   spacing: 4,
   palette: {
     primary: {
-      main: '#fff',
+      main: "#ff6347",
+    },
+    secondary: {
+      main: "#D2B48C",
     },
   },
+  typography: {
+    fontFamily: 'Montserrat',
+    
+  }
 });
 
 ReactDOM.render(
