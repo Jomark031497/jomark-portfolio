@@ -15,15 +15,18 @@ const theme = createMuiTheme({
     },
   },
   typography: {
-    fontFamily: "Montserrat",
-  },
+    fontFamily: 'Montserrat',
+    
+  }
 });
 
 ReactDOM.render(
-  <Router>
-    <ThemeProvider theme={theme}>
-      <App />
-    </ThemeProvider>
-  </Router>,
+  <React.StrictMode>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </Router>
+  </React.StrictMode>,
   document.getElementById("root")
 );
