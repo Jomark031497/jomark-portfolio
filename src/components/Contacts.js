@@ -20,7 +20,9 @@ const useStyles = makeStyles((theme) => ({
     borderColor: "tomato",
   },
   input: {
-    color: "tan",
+    background: "#cdcdcd",
+    margin: "10px auto",
+  
   },
 }));
 
@@ -44,7 +46,7 @@ const Contacts = () => {
 
   return (
     <>
-      <Typography>Contacts</Typography>
+    
       <Box component="div">
         <Grid container justify="center">
           <Box className={classes.formContainer}>
@@ -59,9 +61,8 @@ const Contacts = () => {
                 fullWidth={true}
                 required
                 variant="outlined"
-                InputProps={{
-                  className: classes.input,
-                }}
+                className={classes.input}
+                size="medium"
               />
               <br />
               <TextField
@@ -72,7 +73,7 @@ const Contacts = () => {
                 label="Email"
                 fullWidth={true}
                 required
-                margin="dense"
+                className={classes.input}
                 size="medium"
               />
 
@@ -83,7 +84,7 @@ const Contacts = () => {
                 variant="outlined"
                 label="Company Name"
                 fullWidth={true}
-                margin="dense"
+                className={classes.input}
                 size="medium"
               />
               <br />
@@ -97,7 +98,7 @@ const Contacts = () => {
                 multiline
                 rowsMax={4}
                 fullWidth={true}
-                margin="dense"
+                className={classes.input}
                 size="medium"
                 required
               />
@@ -116,6 +117,8 @@ const Contacts = () => {
           </Box>
         </Grid>
       </Box>
+
+    
     </>
   );
 };

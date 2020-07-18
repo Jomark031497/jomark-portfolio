@@ -119,7 +119,7 @@ const Skills = () => {
                   <Typography variant="h5" color="primary">
                     {skill.name}
                   </Typography>
-                  {/* <Typography variant="body2">{skill.description}</Typography> */}
+                  <Typography variant="body2">{skill.description}</Typography>
                 </CardContent>
               </Card>
             </Grid>
