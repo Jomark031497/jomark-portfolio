@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jomark-portfolio/precache-manifest.58723245cf18480e980f58850e3cf66b.js"
+  "/jomark-portfolio/precache-manifest.f2d3debb9d9b4707a4a70d94b11b9375.js"
 );
 
 self.addEventListener('message', (event) => {

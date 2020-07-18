@@ -1,30 +1,35 @@
 {
   "files": {
-    "main.css": "/jomark-portfolio/static/css/main.65938976.chunk.css",
-    "main.js": "/jomark-portfolio/static/js/main.ada20f48.chunk.js",
-    "main.js.map": "/jomark-portfolio/static/js/main.ada20f48.chunk.js.map",
+    "main.css": "/jomark-portfolio/static/css/main.d1c9676b.chunk.css",
+    "main.js": "/jomark-portfolio/static/js/main.c4d1638c.chunk.js",
+    "main.js.map": "/jomark-portfolio/static/js/main.c4d1638c.chunk.js.map",
     "runtime-main.js": "/jomark-portfolio/static/js/runtime-main.2b713253.js",
     "runtime-main.js.map": "/jomark-portfolio/static/js/runtime-main.2b713253.js.map",
-    "static/js/2.24048cf3.chunk.js": "/jomark-portfolio/static/js/2.24048cf3.chunk.js",
-    "static/js/2.24048cf3.chunk.js.map": "/jomark-portfolio/static/js/2.24048cf3.chunk.js.map",
+    "static/js/2.22cd10f4.chunk.js": "/jomark-portfolio/static/js/2.22cd10f4.chunk.js",
+    "static/js/2.22cd10f4.chunk.js.map": "/jomark-portfolio/static/js/2.22cd10f4.chunk.js.map",
     "index.html": "/jomark-portfolio/index.html",
-    "precache-manifest.58723245cf18480e980f58850e3cf66b.js": "/jomark-portfolio/precache-manifest.58723245cf18480e980f58850e3cf66b.js",
+    "precache-manifest.f2d3debb9d9b4707a4a70d94b11b9375.js": "/jomark-portfolio/precache-manifest.f2d3debb9d9b4707a4a70d94b11b9375.js",
     "service-worker.js": "/jomark-portfolio/service-worker.js",
-    "static/css/main.65938976.chunk.css.map": "/jomark-portfolio/static/css/main.65938976.chunk.css.map",
-    "static/js/2.24048cf3.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.24048cf3.chunk.js.LICENSE.txt",
+    "static/css/main.d1c9676b.chunk.css.map": "/jomark-portfolio/static/css/main.d1c9676b.chunk.css.map",
+    "static/js/2.22cd10f4.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.22cd10f4.chunk.js.LICENSE.txt",
+    "static/media/MYSQL.png": "/jomark-portfolio/static/media/MYSQL.af25e683.png",
     "static/media/avatar.png": "/jomark-portfolio/static/media/avatar.7c8e5f50.png",
+    "static/media/App.css": "/jomark-portfolio/static/media/coffee-apple.2dd213aa.jpg",
     "static/media/css.png": "/jomark-portfolio/static/media/css.0fb4b255.png",
     "static/media/html5.png": "/jomark-portfolio/static/media/html5.3b3cd96b.png",
+    "static/media/java.png": "/jomark-portfolio/static/media/java.a3de6bb9.png",
     "static/media/javascript.png": "/jomark-portfolio/static/media/javascript.490c2220.png",
     "static/media/jomark.jpg": "/jomark-portfolio/static/media/jomark.6fa3728b.jpg",
+    "static/media/mongo.png": "/jomark-portfolio/static/media/mongo.01fe2a6f.png",
+    "static/media/node.png": "/jomark-portfolio/static/media/node.36700bee.png",
     "static/media/placeholder.png": "/jomark-portfolio/static/media/placeholder.6a9d678d.png",
     "static/media/python.png": "/jomark-portfolio/static/media/python.6dd7bc34.png",
     "static/media/react.png": "/jomark-portfolio/static/media/react.37fe8322.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2b713253.js",
-    "static/js/2.24048cf3.chunk.js",
-    "static/css/main.65938976.chunk.css",
-    "static/js/main.ada20f48.chunk.js"
+    "static/js/2.22cd10f4.chunk.js",
+    "static/css/main.d1c9676b.chunk.css",
+    "static/js/main.c4d1638c.chunk.js"
   ]
 }
