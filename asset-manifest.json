@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/jomark-portfolio/static/css/main.936105e1.chunk.css",
-    "main.js": "/jomark-portfolio/static/js/main.91f2b491.chunk.js",
-    "main.js.map": "/jomark-portfolio/static/js/main.91f2b491.chunk.js.map",
+    "main.css": "/jomark-portfolio/static/css/main.7acf94fc.chunk.css",
+    "main.js": "/jomark-portfolio/static/js/main.00e2c1d0.chunk.js",
+    "main.js.map": "/jomark-portfolio/static/js/main.00e2c1d0.chunk.js.map",
     "runtime-main.js": "/jomark-portfolio/static/js/runtime-main.2b713253.js",
     "runtime-main.js.map": "/jomark-portfolio/static/js/runtime-main.2b713253.js.map",
     "static/js/2.4ed05295.chunk.js": "/jomark-portfolio/static/js/2.4ed05295.chunk.js",
     "static/js/2.4ed05295.chunk.js.map": "/jomark-portfolio/static/js/2.4ed05295.chunk.js.map",
     "index.html": "/jomark-portfolio/index.html",
-    "precache-manifest.8a0495f961099420d252ec6ef278dda1.js": "/jomark-portfolio/precache-manifest.8a0495f961099420d252ec6ef278dda1.js",
+    "precache-manifest.54fab4de9fb28be531f9fd328e6efc3f.js": "/jomark-portfolio/precache-manifest.54fab4de9fb28be531f9fd328e6efc3f.js",
     "service-worker.js": "/jomark-portfolio/service-worker.js",
-    "static/css/main.936105e1.chunk.css.map": "/jomark-portfolio/static/css/main.936105e1.chunk.css.map",
+    "static/css/main.7acf94fc.chunk.css.map": "/jomark-portfolio/static/css/main.7acf94fc.chunk.css.map",
     "static/js/2.4ed05295.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.4ed05295.chunk.js.LICENSE.txt",
     "static/media/MYSQL.png": "/jomark-portfolio/static/media/MYSQL.af25e683.png",
     "static/media/alex.jpg": "/jomark-portfolio/static/media/alex.331ab475.jpg",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.2b713253.js",
     "static/js/2.4ed05295.chunk.js",
-    "static/css/main.936105e1.chunk.css",
-    "static/js/main.91f2b491.chunk.js"
+    "static/css/main.7acf94fc.chunk.css",
+    "static/js/main.00e2c1d0.chunk.js"
   ]
 }
