@@ -27,7 +27,7 @@ import MobileRightMenuSlider from "@material-ui/core/Drawer";
 //end of material-ui stuffs
 
 //Local files/images
-import avatar from "../portfolio-project-files/avatar.png";
+import avatar from "../portfolio-project-files/alex.jpg";
 //end of local files
 
 //react-router stuffs
