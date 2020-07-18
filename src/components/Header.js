@@ -25,6 +25,7 @@ const useStyles = makeStyles((theme) => ({
     width: "100vw",
     textAlign: "center",
     zIndex: 1,
+   
   },
   footer: {
     alignItems: "center",

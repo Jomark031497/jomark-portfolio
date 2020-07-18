@@ -53,7 +53,6 @@ const useStyles = makeStyles((theme) => ({
   techContainer: {
     display: "flex",
     justifyContent: "center",
-    
   },
 }));
 

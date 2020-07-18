@@ -27,6 +27,7 @@ const useStyles = makeStyles((theme) => ({
     color: "tan",
     borderRadius: "20px",
     margin: "0 auto",
+    height: "100%"
   },
   cardMedia: {
     height: "150px",

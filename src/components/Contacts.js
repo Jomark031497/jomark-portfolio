@@ -7,12 +7,9 @@ const useStyles = makeStyles((theme) => ({
   formContainer: {
     color: theme.palette.primary.main,
     textAlign: "center",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%, -50%)",
-    position: "absolute",
     padding: "10px",
     background: "rgba(0,0,0,0.4)",
+    margin: "10px",
   },
   button: {
     marginTop: "1rem",
@@ -22,7 +19,6 @@ const useStyles = makeStyles((theme) => ({
   input: {
     background: "#cdcdcd",
     margin: "10px auto",
-  
   },
 }));
 
@@ -46,79 +42,78 @@ const Contacts = () => {
 
   return (
     <>
-    
-      <Box component="div">
-        <Grid container justify="center">
-          <Box className={classes.formContainer}>
-            <form onSubmit={handleSubmit} className="form-container">
-              <Typography variant="h6">SEND ME A FEEDBACK!</Typography>
+      <Box component="div" className={classes.root}>
+        <Grid container justify="center" className={classes.root}>
+          <Grid item xs={12} sm={9} md={6}>
+            <Box className={classes.formContainer}>
+              <form onSubmit={handleSubmit} className="form-container">
+                <Typography variant="h6">SEND ME A FEEDBACK!</Typography>
 
-              <TextField
-                value={name}
-                name="name"
-                onChange={(e) => setName(e.target.value)}
-                label="Name"
-                fullWidth={true}
-                required
-                variant="outlined"
-                className={classes.input}
-                size="medium"
-              />
-              <br />
-              <TextField
-                name="emailAddress"
-                value={emailAddress}
-                onChange={(e) => setEmailAddress(e.target.value)}
-                variant="outlined"
-                label="Email"
-                fullWidth={true}
-                required
-                className={classes.input}
-                size="medium"
-              />
+                <TextField
+                  value={name}
+                  name="name"
+                  onChange={(e) => setName(e.target.value)}
+                  label="Name"
+                  fullWidth={true}
+                  required
+                  variant="outlined"
+                  className={classes.input}
+                  size="medium"
+                />
+                <br />
+                <TextField
+                  name="emailAddress"
+                  value={emailAddress}
+                  onChange={(e) => setEmailAddress(e.target.value)}
+                  variant="outlined"
+                  label="Email"
+                  fullWidth={true}
+                  required
+                  className={classes.input}
+                  size="medium"
+                />
 
-              <TextField
-                name="companyName"
-                value={companyName}
-                onChange={(e) => setCompanyName(e.target.value)}
-                variant="outlined"
-                label="Company Name"
-                fullWidth={true}
-                className={classes.input}
-                size="medium"
-              />
-              <br />
+                <TextField
+                  name="companyName"
+                  value={companyName}
+                  onChange={(e) => setCompanyName(e.target.value)}
+                  variant="outlined"
+                  label="Company Name"
+                  fullWidth={true}
+                  className={classes.input}
+                  size="medium"
+                />
+                <br />
 
-              <TextField
-                name="message"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-                variant="outlined"
-                label="Message"
-                multiline
-                rowsMax={4}
-                fullWidth={true}
-                className={classes.input}
-                size="medium"
-                required
-              />
-              <br />
+                <TextField
+                  name="message"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                  variant="outlined"
+                  label="Message"
+                  multiline
+                  rowsMax={4}
+                  fullWidth={true}
+                  className={classes.input}
+                  size="medium"
+                  required
+                />
+                <br />
 
-              <Button
-                className={classes.button}
-                variant="outlined"
-                fullWidth={true}
-                type="submit"
-                endIcon={<SendIcon />}
-              >
-                Submit
-              </Button>
-            </form>
-          </Box>
+                <Button
+                  className={classes.button}
+                  variant="outlined"
+                  fullWidth={true}
+                  type="submit"
+                  endIcon={<SendIcon />}
+                >
+                  Submit
+                </Button>
+              </form>
+            </Box>
+          </Grid>
         </Grid>
       </Box>
-
-    
     </>
   );
 };
