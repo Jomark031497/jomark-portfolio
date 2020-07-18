@@ -12,6 +12,11 @@ import CSS from "../portfolio-project-files/skill-logos/css.png";
 import JSCRIPT from "../portfolio-project-files/skill-logos/javascript.png";
 import PYTHON from "../portfolio-project-files/skill-logos/python.png";
 import REACT from "../portfolio-project-files/skill-logos/react.png";
+import JAVA from "../portfolio-project-files/skill-logos/java.png";
+import EXPRESS from "../portfolio-project-files/skill-logos/express.png";
+import NODE from "../portfolio-project-files/skill-logos/node.png";
+import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
+import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,29 +41,56 @@ const useStyles = makeStyles((theme) => ({
 
 const mySkills = [
   {
-    name: "HTML5",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    name: "HTML 5",
+    description: "Elements, Tags, Attributes, Classes and Ids, HTML5 Semantics",
     imgSrc: HTML5,
   },
   {
-    name: "CSS3",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    name: "CSS 3",
+    description:
+      "Box Model, color system, CSS Units, Responsive Web Design (Flexbox/Grid)",
     imgSrc: CSS,
   },
   {
-    name: "JAVASCRIPT (ES5/ES6)",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    name: "JavaScript (ES5/ES6)",
+    description:
+      "Object/Constructors, Modular Pattern, Classes, OOP Principles, Asynchronous Concepts",
     imgSrc: JSCRIPT,
   },
   {
-    name: "PYTHON3",
+    name: "Python 3",
     description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
     imgSrc: PYTHON,
   },
   {
-    name: "REACT",
+    name: "React JS",
     description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
     imgSrc: REACT,
+  },
+  {
+    name: "Java",
+    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    imgSrc: JAVA,
+  },
+  {
+    name: "Express JS",
+    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    imgSrc: EXPRESS,
+  },
+  {
+    name: "NodeJS",
+    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    imgSrc: NODE,
+  },
+  {
+    name: "MongoDB",
+    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    imgSrc: MONGO,
+  },
+  {
+    name: "mySQL",
+    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    imgSrc: MYSQL,
   },
 ];
 
@@ -87,7 +119,7 @@ const Skills = () => {
                   <Typography variant="h5" color="primary">
                     {skill.name}
                   </Typography>
-                  <Typography variant="body2">{skill.description}</Typography>
+                  {/* <Typography variant="body2">{skill.description}</Typography> */}
                 </CardContent>
               </Card>
             </Grid>

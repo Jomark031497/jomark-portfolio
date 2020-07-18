@@ -37,6 +37,7 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     letterSpacing: "0.2rem",
+ 
   },
   titleBar: {
     flex: "1",

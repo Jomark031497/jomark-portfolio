@@ -12,27 +12,36 @@ import {
 } from "@material-ui/core";
 import placeholderImg from "../portfolio-project-files/images/placeholder.png";
 
-import html5 from "../portfolio-project-files/skill-logos/html5.png";
-import react from "../portfolio-project-files/skill-logos/react.png";
-import css from "../portfolio-project-files/skill-logos/css.png";
-import javascript from "../portfolio-project-files/skill-logos/javascript.png";
-
 import { makeStyles } from "@material-ui/core/styles";
+import HTML5 from "../portfolio-project-files/skill-logos/html5.png";
+import CSS from "../portfolio-project-files/skill-logos/css.png";
+import JSCRIPT from "../portfolio-project-files/skill-logos/javascript.png";
+import PYTHON from "../portfolio-project-files/skill-logos/python.png";
+import REACT from "../portfolio-project-files/skill-logos/react.png";
+import JAVA from "../portfolio-project-files/skill-logos/java.png";
+import EXPRESS from "../portfolio-project-files/skill-logos/express.png";
+import NODE from "../portfolio-project-files/skill-logos/node.png";
+import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
+import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    margin: "20px 30px",
+    justifyContent: "stretch",
+  },
   cardMedia: {
     height: 0,
-    paddingTop: "56.25%", // 16:9
+    paddingTop: "56.25%",
     borderRadius: "20px",
     border: "1px solid black",
   },
   cardContainer: {
-    margin: "10px 20px",
     padding: "20px",
     background: "rgba(0,0,0,0.4)",
     color: "tan",
     borderRadius: "20px",
     textAlign: "center",
+    height: "100%",
   },
   cardButtons: {
     justifyContent: "center",
@@ -43,7 +52,8 @@ const useStyles = makeStyles((theme) => ({
   },
   techContainer: {
     display: "flex",
-    justifyContent: "space-around",
+    justifyContent: "center",
+    
   },
 }));
 
@@ -51,19 +61,37 @@ const myProjects = [
   {
     title: "Taskerino",
     description: "A Todo-List App",
-    usedTech: [react, html5, css, javascript],
+    usedTech: [REACT, HTML5, CSS, JSCRIPT],
+    imgSrc: placeholderImg,
+  },
+  {
+    title: "Wheres Waldo?",
+    description: "A classic game where you are tasked to find waldog",
+    usedTech: [REACT, HTML5, CSS, JSCRIPT, NODE, EXPRESS, MONGO],
     imgSrc: placeholderImg,
   },
   {
     title: "Weatherino",
     description: "A Weather App",
-    usedTech: [react, html5, css, javascript],
+    usedTech: [REACT, HTML5, CSS, JSCRIPT],
     imgSrc: placeholderImg,
   },
   {
     title: "Book-Tracker",
     description: "A Book Tracker App",
-    usedTech: [react, html5, css, javascript],
+    usedTech: [REACT, HTML5, CSS, JSCRIPT],
+    imgSrc: placeholderImg,
+  },
+  {
+    title: "Integrated Patient Management System",
+    description: "A Paperless, digital Hospital Management System",
+    usedTech: [JAVA, MYSQL],
+    imgSrc: placeholderImg,
+  },
+  {
+    title: "Self Navigating Moss Removing Machine",
+    description: "A Shitty Thesis which cleans moss",
+    usedTech: [PYTHON],
     imgSrc: placeholderImg,
   },
 ];
@@ -72,8 +100,8 @@ const Portfolio = () => {
   const classes = useStyles();
   return (
     <>
-      <Box component="div">
-        <Grid container justify="center" alignItems="center">
+      <Box component="div" className={classes.root}>
+        <Grid container justify="center" spacing={3}>
           {myProjects.map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
               <Card className={classes.cardContainer}>

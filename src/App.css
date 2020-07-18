@@ -1,1 +1,5 @@
-
+body {
+  background-image: url(./portfolio-project-files/coffee-apple.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

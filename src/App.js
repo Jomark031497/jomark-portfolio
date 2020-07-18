@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <CssBaseline />
+
       <Navbar />
       <Switch>
         <Route exact path="/jomark-portfolio/" component={Home} />

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Grid, Typography, TextField, Button } from "@material-ui/core";
+import { Box, Grid, Typography, Button, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
 
@@ -18,6 +18,9 @@ const useStyles = makeStyles((theme) => ({
     marginTop: "1rem",
     color: "tomato",
     borderColor: "tomato",
+  },
+  input: {
+    color: "tan",
   },
 }));
 
@@ -52,13 +55,13 @@ const Contacts = () => {
                 value={name}
                 name="name"
                 onChange={(e) => setName(e.target.value)}
-                variant="outlined"
                 label="Name"
                 fullWidth={true}
                 required
-                margin="dense"
-                size="medium"
-                color="primary"
+                variant="outlined"
+                InputProps={{
+                  className: classes.input,
+                }}
               />
               <br />
               <TextField
