@@ -8,19 +8,7 @@ import { makeStyles } from "@material-ui/core/styles";
 
 
 const useStyles = makeStyles({
-  root: {
-    "& .MuiBottomNavigationAction-root": {
-      minWidth: 0,
-      maxWidth: "250px",
-    },
-    "& .MuiSvgIcon-root": {
-      fill: "tan",
-      "&:hover": {
-        fill: "tomato",
-        fontSize: "1.8rem",
-      },
-    },
-  },
+
 });
 
 const Footer = () => {

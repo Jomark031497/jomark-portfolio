@@ -67,6 +67,7 @@ const myProjects = [
     imgSrc: placeholderImg,
   },
 ];
+
 const Portfolio = () => {
   const classes = useStyles();
   return (

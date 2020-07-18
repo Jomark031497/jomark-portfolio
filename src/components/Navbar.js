@@ -1,31 +1,70 @@
 import React, { useState } from "react";
+
+//Material-ui stuffs
 import {
+  Typography,
+  Box,
   AppBar,
   Toolbar,
-  Box,
   IconButton,
-  Typography,
+  Hidden,
   Avatar,
   Divider,
-  ListItem,
   List,
+  ListItem,
   ListItemIcon,
   ListItemText,
 } from "@material-ui/core";
-import MobileRightMenuSlider from "@material-ui/core/Drawer";
-import { ArrowBack, Home, Apps, ContactMail } from "@material-ui/icons";
 import MenuIcon from "@material-ui/icons/Menu";
-import CodeIcon from "@material-ui/icons/Code";
 import { makeStyles } from "@material-ui/styles";
-import avatar from "../portfolio-project-files/jomark.jpg";
+import HomeIcon from "@material-ui/icons/Home";
+import CodeIcon from "@material-ui/icons/Code";
+import AppsIcon from "@material-ui/icons/Apps";
+import ContactsIcon from "@material-ui/icons/Contacts";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
+import MobileRightMenuSlider from "@material-ui/core/Drawer";
+
+//end of material-ui stuffs
+
+//Local files/images
+import avatar from "../portfolio-project-files/avatar.png";
+//end of local files
+
+//react-router stuffs
 import { Link } from "react-router-dom";
-import Footer from "./Footer"
+//end of react-router stuffs
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    letterSpacing: "0.2rem",
+  },
+  titleBar: {
+    flex: "1",
+    color: theme.palette.primary.main,
+    marginLeft: "2rem",
+  },
+  listContainer: {
+    listStyle: "none",
+    display: "flex",
+    justifyContent: "space-evenly",
+    width: "50%",
+  },
+  links: {
+    textDecoration: "none",
+    color: theme.palette.secondary.main,
+    fontSize: "1rem",
+    margin: "0 5px",
+
+    "&:hover": {
+      color: "tomato",
+      borderBottom: "1px solid tomato",
+      opacity: "0.7",
+    },
+  },
   appBar: {
     background: "#222",
+    minHeight: "10vh",
   },
-
   menuSlider: {
     width: "250px",
     background: "#511",
@@ -46,7 +85,7 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   {
-    listIcon: <Home />,
+    listIcon: <HomeIcon />,
     listText: "Home",
     listPath: "/jomark-portfolio/",
   },
@@ -56,12 +95,12 @@ const menuItems = [
     listPath: "/jomark-portfolio/skills",
   },
   {
-    listIcon: <Apps />,
+    listIcon: <AppsIcon />,
     listText: "Portfolio",
     listPath: "/jomark-portfolio/portfolio",
   },
   {
-    listIcon: <ContactMail />,
+    listIcon: <ContactsIcon />,
     listText: "Contacts",
     listPath: "/jomark-portfolio/contacts",
   },
@@ -85,7 +124,7 @@ const Navbar = () => {
       onClick={toggleSlider(slider, false)}
     >
       <IconButton>
-        <ArrowBack style={{ color: "tomato" }} />
+        <ArrowBackIcon style={{ color: "tomato" }} />
       </IconButton>
 
       <Avatar src={avatar} alt="Jomark Pangan" className={classes.avatar} />
@@ -108,20 +147,41 @@ const Navbar = () => {
 
   return (
     <>
-      <Box component="nav" className={classes.boxContainer}>
+      <Box component="nav" className={classes.root}>
         <AppBar position="static" className={classes.appBar}>
           <Toolbar>
-            <IconButton onClick={toggleSlider("right", true)}>
-              <MenuIcon style={{ color: "tomato" }} />
-            </IconButton>
-
-            <Typography variant="h5" color="secondary">Portfolio</Typography>
+            <Hidden smUp>
+              <IconButton onClick={toggleSlider("right", true)}>
+                <MenuIcon style={{ color: "tomato" }} />
+              </IconButton>
+            </Hidden>
+            <Box component="div" className={classes.titleBar}>
+              <Typography variant="h4">Jomarks' Portfolio</Typography>
+            </Box>
+            <Hidden xsDown>
+              <Box component="ul" className={classes.listContainer}>
+                <Link to="/jomark-portfolio/" className={classes.links}>
+                  <li>Home</li>
+                </Link>
+                <Link to="/jomark-portfolio/skills" className={classes.links}>
+                  <li>Skills</li>
+                </Link>
+                <Link
+                  to="/jomark-portfolio/portfolio"
+                  className={classes.links}
+                >
+                  <li>Projects</li>
+                </Link>
+                <Link to="/jomark-portfolio/contacts" className={classes.links}>
+                  <li>Contacts</li>
+                </Link>
+              </Box>
+            </Hidden>
             <MobileRightMenuSlider
               open={state.right}
               onClose={toggleSlider("right", false)}
             >
               {sideList("right")}
-              <Footer />
             </MobileRightMenuSlider>
           </Toolbar>
         </AppBar>

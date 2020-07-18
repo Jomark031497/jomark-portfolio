@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Box, Grid, Typography, TextField, Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
-import * as emailjs from "emailjs-com";
 
 const useStyles = makeStyles((theme) => ({
   formContainer: {
@@ -34,25 +33,15 @@ const Contacts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, emailAddress, companyName, message);
-    emailjs
-      .sendForm(
-        "gmail",
-        "template_gGE0RwgK",
-        ".form-container",
-        "user_MdnqgFUFdNWPOOf7uNeJE"
-      )
-      .then()
-      .catch();
-
     setName("");
     setEmailAddress("");
     setCompanyName("");
     setMessage("");
-    alert("Feedback sent!");
   };
 
   return (
     <>
+      <Typography>Contacts</Typography>
       <Box component="div">
         <Grid container justify="center">
           <Box className={classes.formContainer}>
@@ -70,7 +59,6 @@ const Contacts = () => {
                 margin="dense"
                 size="medium"
                 color="primary"
-                inputProps={{ style: { color: "tan" } }}
               />
               <br />
               <TextField
@@ -83,7 +71,6 @@ const Contacts = () => {
                 required
                 margin="dense"
                 size="medium"
-                inputProps={{ style: { color: "tan" } }}
               />
 
               <TextField
@@ -95,7 +82,6 @@ const Contacts = () => {
                 fullWidth={true}
                 margin="dense"
                 size="medium"
-                inputProps={{ style: { color: "tan" } }}
               />
               <br />
 
@@ -111,7 +97,6 @@ const Contacts = () => {
                 margin="dense"
                 size="medium"
                 required
-                inputProps={{ style: { color: "tan" } }}
               />
               <br />
 
