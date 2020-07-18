@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/jomark-portfolio/static/css/main.65938976.chunk.css",
-    "main.js": "/jomark-portfolio/static/js/main.0933d014.chunk.js",
-    "main.js.map": "/jomark-portfolio/static/js/main.0933d014.chunk.js.map",
+    "main.js": "/jomark-portfolio/static/js/main.ada20f48.chunk.js",
+    "main.js.map": "/jomark-portfolio/static/js/main.ada20f48.chunk.js.map",
     "runtime-main.js": "/jomark-portfolio/static/js/runtime-main.2b713253.js",
     "runtime-main.js.map": "/jomark-portfolio/static/js/runtime-main.2b713253.js.map",
-    "static/js/2.3f2ad455.chunk.js": "/jomark-portfolio/static/js/2.3f2ad455.chunk.js",
-    "static/js/2.3f2ad455.chunk.js.map": "/jomark-portfolio/static/js/2.3f2ad455.chunk.js.map",
+    "static/js/2.24048cf3.chunk.js": "/jomark-portfolio/static/js/2.24048cf3.chunk.js",
+    "static/js/2.24048cf3.chunk.js.map": "/jomark-portfolio/static/js/2.24048cf3.chunk.js.map",
     "index.html": "/jomark-portfolio/index.html",
-    "precache-manifest.3df81a33620037c4b420b6d251a8e419.js": "/jomark-portfolio/precache-manifest.3df81a33620037c4b420b6d251a8e419.js",
+    "precache-manifest.58723245cf18480e980f58850e3cf66b.js": "/jomark-portfolio/precache-manifest.58723245cf18480e980f58850e3cf66b.js",
     "service-worker.js": "/jomark-portfolio/service-worker.js",
     "static/css/main.65938976.chunk.css.map": "/jomark-portfolio/static/css/main.65938976.chunk.css.map",
-    "static/js/2.3f2ad455.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.3f2ad455.chunk.js.LICENSE.txt"
+    "static/js/2.24048cf3.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.24048cf3.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/jomark-portfolio/static/media/avatar.7c8e5f50.png",
+    "static/media/css.png": "/jomark-portfolio/static/media/css.0fb4b255.png",
+    "static/media/html5.png": "/jomark-portfolio/static/media/html5.3b3cd96b.png",
+    "static/media/javascript.png": "/jomark-portfolio/static/media/javascript.490c2220.png",
+    "static/media/jomark.jpg": "/jomark-portfolio/static/media/jomark.6fa3728b.jpg",
+    "static/media/placeholder.png": "/jomark-portfolio/static/media/placeholder.6a9d678d.png",
+    "static/media/python.png": "/jomark-portfolio/static/media/python.6dd7bc34.png",
+    "static/media/react.png": "/jomark-portfolio/static/media/react.37fe8322.png"
   },
   "entrypoints": [
     "static/js/runtime-main.2b713253.js",
-    "static/js/2.3f2ad455.chunk.js",
+    "static/js/2.24048cf3.chunk.js",
     "static/css/main.65938976.chunk.css",
-    "static/js/main.0933d014.chunk.js"
+    "static/js/main.ada20f48.chunk.js"
   ]
 }
