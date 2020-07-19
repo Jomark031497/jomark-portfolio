@@ -60,18 +60,25 @@ const mySkills = [
     imgSrc: JSCRIPT,
   },
   {
-    name: "Python 3",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
-    imgSrc: PYTHON,
-  },
-  {
     name: "React JS",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    description:
+      "ReactDOM & JSX, Functional Components, Class Components, Hooks, Props, State, Lifecycle Methods, ",
     imgSrc: REACT,
   },
   {
     name: "Java",
+    description: "Object/Constructors, Classes, Functions, OOP Principles",
+    imgSrc: JAVA,
+  },
+  {
+    name: "Python 3",
     description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    imgSrc: PYTHON,
+  },
+
+  {
+    name: "Java",
+    description: "Object/Constructors, Classes, Functions, OOP Principles",
     imgSrc: JAVA,
   },
   {
