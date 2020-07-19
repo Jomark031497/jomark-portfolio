@@ -5,7 +5,9 @@ import Typed from "react-typed";
 import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
-
+  root: {
+    height: "90vh",
+  },
   gridContainer: {
     justifyContent: "center",
   },
