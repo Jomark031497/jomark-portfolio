@@ -1,14 +1,8 @@
 import React, { useState } from "react";
-import {
-  Box,
-  Grid,
-  Typography,
-  Button,
-  TextField,
-  IconButton,
-} from "@material-ui/core";
+import { Box, Grid, Typography, Button, TextField } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
+import emailjs from "emailjs-com";
 
 const useStyles = makeStyles((theme) => ({
   formContainer: {
@@ -52,6 +46,18 @@ const Contacts = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, emailAddress, companyName, message);
+    emailjs
+      .sendForm(
+        "gmail",
+        "template_gGE0RwgK",
+        e.target,
+        "user_MdnqgFUFdNWPOOf7uNeJE"
+      )
+      .then((res) => {
+        console.log(res.text);
+        alert("Thank you for your feedback!");
+      });
+
     setName("");
     setEmailAddress("");
     setCompanyName("");
@@ -61,7 +67,7 @@ const Contacts = () => {
   return (
     <Box className={classes.root}>
       <Grid container justify="center" spacing={3}>
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Box className={classes.formContainer}>
             <form onSubmit={handleSubmit} className="form-container">
               <Typography variant="h6">SEND ME A FEEDBACK!</Typography>
@@ -129,7 +135,7 @@ const Contacts = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} sm={4}>
+        <Grid item xs={12} sm={6} md={4}>
           <Box component="div" className={classes.contactCard}>
             <Typography variant="h6">CONTACT CARD</Typography>
             <br />
