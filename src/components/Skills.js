@@ -20,10 +20,7 @@ import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
 import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    background: "darkslategray",
 
-  },
   cardContainer: {
     minWidth: "275px",
     textAlign: "center",

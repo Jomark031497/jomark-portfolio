@@ -25,9 +25,6 @@ import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
 import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: "darkslategray",
-  },
   gridContainer: {
     padding: "20px 50px",
   },
