@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
   titleBar: {
     flex: "1",
     color: theme.palette.primary.main,
-    marginLeft: "2rem",
+    marginLeft: "1rem",
   },
   listContainer: {
     listStyle: "none",
@@ -63,8 +63,6 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     background: "#222",
-    minHeight: "10vh",
-    
   },
   menuSlider: {
     width: "250px",

@@ -5,6 +5,14 @@ import Typed from "react-typed";
 import { makeStyles } from "@material-ui/styles";
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    height: "100vh",
+    backgroundColor: "darkslategray",
+    flexGrow: 1,
+  },
+  gridContainer: {
+    justifyContent: "center",
+  },
   avatar: {
     width: theme.spacing(15),
     height: theme.spacing(15),
@@ -17,16 +25,7 @@ const useStyles = makeStyles((theme) => ({
     color: "tan",
     marginBottom: "3rem",
   },
-  typedContainer: {
-    position: "absolute",
-    top: "50%",
-    left: "50%",
-    transform: "translate(-50%,-50%)",
-    width: "100vw",
-    textAlign: "center",
-    zIndex: 1,
-   
-  },
+
   footer: {
     alignItems: "center",
   },
@@ -36,23 +35,34 @@ const Header = () => {
 
   return (
     <>
-      <Box className={classes.typedContainer}>
-        <Grid container justify="center">
-          <Avatar src={avatar} alt="Jomark" className={classes.avatar} />
+      <Box component="div" className={classes.root}>
+        <Grid
+          container
+          justify="center"
+          alignItems="center"
+          direction="column"
+          spacing={4}
+        >
+          <Grid item style={{ margin: "4rem" }}></Grid>
+          <Grid item>
+            <Avatar src={avatar} alt="Jomark" className={classes.avatar} />
+          </Grid>
+          <Grid item>
+            <Typography variant="h4" className={classes.title}>
+              <Typed strings={["Jomark Pangan"]} typeSpeed={40} />
+            </Typography>
+          </Grid>
+          <Grid item>
+            <Typography variant="h5" className={classes.subTitle}>
+              <Typed
+                strings={["Web Developer", "Computer Engineer"]}
+                typeSpeed={40}
+                backSpeed={40}
+                loop
+              />
+            </Typography>
+          </Grid>
         </Grid>
-
-        <Typography variant="h4" className={classes.title}>
-          <Typed strings={["Jomark Pangan"]} typeSpeed={40} />
-        </Typography>
-        <br />
-        <Typography variant="h5" className={classes.subTitle}>
-          <Typed
-            strings={["Web Developer", "Computer Engineer"]}
-            typeSpeed={40}
-            backSpeed={40}
-            loop
-          />
-        </Typography>
       </Box>
     </>
   );
