@@ -1,5 +1,12 @@
 import React, { useState } from "react";
-import { Box, Grid, Typography, Button, TextField } from "@material-ui/core";
+import {
+  Box,
+  Grid,
+  Typography,
+  Button,
+  TextField,
+  IconButton,
+} from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
 
@@ -53,7 +60,7 @@ const Contacts = () => {
 
   return (
     <Box className={classes.root}>
-      <Grid container justify="center">
+      <Grid container justify="center" spacing={3}>
         <Grid item xs={12} sm={4}>
           <Box className={classes.formContainer}>
             <form onSubmit={handleSubmit} className="form-container">

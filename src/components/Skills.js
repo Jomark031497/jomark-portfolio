@@ -106,7 +106,7 @@ const Skills = () => {
         <Grid container spacing={3}>
           <Grid item container justify="center">
             <Typography variant="h3" color="primary">
-              SKILLS
+              Skills
             </Typography>
           </Grid>
 

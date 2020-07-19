@@ -26,13 +26,14 @@ import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
   gridContainer: {
-    padding: "20px 50px",
+
   },
   cardMedia: {
     height: 0,
     paddingTop: "56.25%",
     borderRadius: "20px",
     border: "1px solid black",
+    margin: "20px"
   },
   cardContainer: {
     padding: "5px",
@@ -41,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
     borderRadius: "20px",
     textAlign: "center",
     height: "100%",
+    margin: "20px"
   },
   cardButtons: {
     justifyContent: "center",
@@ -102,9 +104,14 @@ const Portfolio = () => {
         <Grid
           container
           justify="center"
-          spacing={5}
+          spacing={3}
           className={classes.gridContainer}
         >
+          <Grid item container justify="center">
+            <Typography variant="h3" color="primary">
+              Projects
+            </Typography>
+          </Grid>
           {myProjects.map((project, index) => (
             <Grid item xs={12} sm={6} md={4} key={index}>
               <Card className={classes.cardContainer}>
