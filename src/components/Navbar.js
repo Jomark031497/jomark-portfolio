@@ -37,7 +37,6 @@ import { Link } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     letterSpacing: "0.2rem",
- 
   },
   titleBar: {
     flex: "1",
@@ -65,6 +64,7 @@ const useStyles = makeStyles((theme) => ({
   appBar: {
     background: "#222",
     minHeight: "10vh",
+    
   },
   menuSlider: {
     width: "250px",
@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
   },
 
   listItem: {
-    color: "tan",
+    color: theme.palette.secondary.main,
   },
 }));
 
