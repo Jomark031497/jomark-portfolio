@@ -77,11 +77,6 @@ const mySkills = [
   },
 
   {
-    name: "Java",
-    description: "Object/Constructors, Classes, Functions, OOP Principles",
-    imgSrc: JAVA,
-  },
-  {
     name: "Express JS",
     description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
     imgSrc: EXPRESS,
