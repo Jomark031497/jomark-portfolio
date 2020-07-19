@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "darkslategray",
   },
   gridContainer: {
-    
+    padding: "20px 50px",
   },
   cardMedia: {
     height: 0,
@@ -105,7 +105,7 @@ const Portfolio = () => {
         <Grid
           container
           justify="center"
-          spacing={3}
+          spacing={5}
           className={classes.gridContainer}
         >
           {myProjects.map((project, index) => (
