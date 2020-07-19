@@ -26,29 +26,28 @@ import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
   gridContainer: {
-
+    padding: "10px 20px",
   },
   cardMedia: {
     height: 0,
     paddingTop: "56.25%",
     borderRadius: "20px",
     border: "1px solid black",
-    margin: "20px"
+    margin: "20px",
   },
   cardContainer: {
-    padding: "5px",
     background: "rgba(0,0,0,0.4)",
     color: "tan",
     borderRadius: "20px",
     textAlign: "center",
     height: "100%",
-    margin: "20px"
+    margin: "0 20px",
   },
   cardButtons: {
     justifyContent: "center",
   },
   techImage: {
-    height: "50px",
+    height: "60px",
     width: "50px",
   },
   techContainer: {
@@ -91,6 +90,12 @@ const myProjects = [
   {
     title: "Self Navigating Moss Removing Machine",
     description: "A Shitty Thesis which cleans moss",
+    usedTech: [PYTHON],
+    imgSrc: placeholderImg,
+  },
+  {
+    title: "Truck Drivers Drowsiness Detector",
+    description: "A Shitty Thesis which detects if the driver is sleepy/drowsy",
     usedTech: [PYTHON],
     imgSrc: placeholderImg,
   },

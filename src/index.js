@@ -17,6 +17,12 @@ const theme = createMuiTheme({
       default: "#294646",
     },
   },
+  typography: {
+    fontFamily: `"Montserrat", "Helvetica", "Arial", sans-serif`,
+    fontWeightLight: 300,
+    fontWeightRegular: 400,
+    fontWeightMedium: 500,
+  },
 });
 
 ReactDOM.render(

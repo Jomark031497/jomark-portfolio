@@ -20,11 +20,10 @@ import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
 import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
-
   cardContainer: {
     minWidth: "275px",
     textAlign: "center",
-    padding: "10px 20px 0 20px",
+    padding: "10px 20px",
     background: "rgba(0,0,0,0.4)",
     color: "tan",
     borderRadius: "20px",
@@ -32,8 +31,8 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   cardMedia: {
-    height: "150px",
-    width: "150px",
+    height: "170px",
+    width: "140px",
     margin: "0 auto",
   },
   skillCards: {
