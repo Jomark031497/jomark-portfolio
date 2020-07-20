@@ -66,7 +66,7 @@ const Contacts = () => {
 
   return (
     <Box className={classes.root}>
-      <Grid container justify="center" spacing={3}>
+      <Grid container justify="center">
         <Grid item xs={12} sm={6} md={4}>
           <Box className={classes.formContainer}>
             <form onSubmit={handleSubmit} className="form-container">
