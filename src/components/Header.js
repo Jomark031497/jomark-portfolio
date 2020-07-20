@@ -39,7 +39,7 @@ const Header = () => {
           justify="center"
           alignItems="center"
           direction="column"
-          spacing={4}
+        
         >
           <Grid item style={{ margin: "4rem" }}></Grid>
           <Grid item>
