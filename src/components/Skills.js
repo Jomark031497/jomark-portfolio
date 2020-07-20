@@ -20,14 +20,17 @@ import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
 import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    width: "100%",
+    margin: "0 auto"
+  },
   cardContainer: {
-    minWidth: "275px",
     textAlign: "center",
     padding: "10px 20px",
     background: "rgba(0,0,0,0.4)",
     color: "tan",
     borderRadius: "20px",
-    margin: "0 auto",
+    margin: "0 1rem",
     height: "100%",
   },
   cardMedia: {
@@ -104,14 +107,14 @@ const Skills = () => {
   return (
     <>
       <Box component="div" className={classes.root}>
-        <Grid container spacing={3}>
+        <Grid container>
           <Grid item container justify="center">
             <Typography variant="h3" color="primary">
               Skills
             </Typography>
           </Grid>
 
-          <Grid item container spacing={10} className={classes.skillCards}>
+          <Grid item container spacing={3} className={classes.skillCards}>
             {mySkills.map((skill, index) => (
               <Grid item xs={12} sm={6} md={4} key={index}>
                 <Card className={classes.cardContainer}>

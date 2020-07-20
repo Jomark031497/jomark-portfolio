@@ -63,7 +63,6 @@ const useStyles = makeStyles((theme) => ({
   },
   appBar: {
     background: "#222",
-    width: "100vw",
     margin: "0 auto",
   },
   menuSlider: {
