@@ -38,6 +38,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     letterSpacing: "0.2rem",
   },
+  appBar: {
+    background: "#222",
+    margin: "0 auto",
+  },
   titleBar: {
     flex: "1",
     color: theme.palette.primary.main,
@@ -61,10 +65,7 @@ const useStyles = makeStyles((theme) => ({
       opacity: "0.7",
     },
   },
-  appBar: {
-    background: "#222",
-    margin: "0 auto",
-  },
+
   menuSlider: {
     width: "250px",
     background: "#511",
@@ -81,6 +82,7 @@ const useStyles = makeStyles((theme) => ({
   listItem: {
     color: theme.palette.secondary.main,
   },
+  offset: theme.mixins.toolbar,
 }));
 
 const menuItems = [
@@ -148,7 +150,7 @@ const Navbar = () => {
   return (
     <>
       <Box component="nav" className={classes.root}>
-        <AppBar position="static" className={classes.appBar}>
+        <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>
             <Hidden smUp>
               <IconButton onClick={toggleSlider("right", true)}>
@@ -185,6 +187,7 @@ const Navbar = () => {
             </MobileRightMenuSlider>
           </Toolbar>
         </AppBar>
+        <div className={classes.offset} />
       </Box>
     </>
   );

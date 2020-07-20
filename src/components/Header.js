@@ -41,7 +41,7 @@ const Header = () => {
           direction="column"
         
         >
-          <Grid item style={{ margin: "4rem" }}></Grid>
+          <Grid item style={{ margin: "6rem" }}></Grid>
           <Grid item>
             <Avatar src={avatar} alt="Jomark" className={classes.avatar} />
           </Grid>
