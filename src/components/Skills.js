@@ -22,7 +22,7 @@ import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
-    margin: "0 auto"
+    margin: "0 auto",
   },
   cardContainer: {
     textAlign: "center",

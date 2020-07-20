@@ -25,8 +25,8 @@ import MONGO from "../portfolio-project-files/skill-logos/mongo.png";
 import MYSQL from "../portfolio-project-files/skill-logos/MYSQL.png";
 
 const useStyles = makeStyles((theme) => ({
-  gridContainer: {
-    padding: "10px 20px",
+  root: {
+    margin: "2rem",
   },
   cardMedia: {
     height: 0,
@@ -109,8 +109,8 @@ const Portfolio = () => {
         <Grid
           container
           justify="center"
-          spacing={3}
           className={classes.gridContainer}
+          spacing={3}
         >
           <Grid item container justify="center">
             <Typography variant="h3" color="primary">
