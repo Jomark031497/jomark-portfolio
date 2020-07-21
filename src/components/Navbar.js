@@ -34,7 +34,7 @@ import avatar from "../portfolio-project-files/alex.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    letterSpacing: "0.2rem",
+    letterSpacing: "0.1rem",
     minHeight: "10vh",
   },
   appBar: {
@@ -82,6 +82,18 @@ const useStyles = makeStyles((theme) => ({
     color: theme.palette.secondary.main,
   },
   offset: theme.mixins.toolbar,
+
+  bottomNav: {
+    top: "auto",
+    bottom: "0",
+    background: "rgba(34,34,34,0.8)",
+ 
+   
+    bottomNavIcons: {
+      display: "flex",
+      justifyContent: "space-around",
+    },
+  },
 }));
 
 const menuItems = [
@@ -197,6 +209,37 @@ const Navbar = () => {
         </AppBar>
         <div className={classes.offset} />
       </Box>
+
+      <Hidden smUp>
+        <AppBar
+          position="fixed"
+          className={classes.bottomNav}
+          justifyContent="space-around"
+          alignItems="center"
+        >
+          <Toolbar>
+            <IconButton
+              onClick={toggleSlider("right", true)}
+              style={{marginRight: "1rem"}}
+            >
+              <MenuIcon style={{ color: "tomato" }} />
+            </IconButton>
+            <IconButton style={{ flex: "1" }}>
+              <HomeIcon style={{ color: "tomato" }} />
+            </IconButton>
+
+            <IconButton style={{ flex: "1" }}>
+              <CodeIcon style={{ color: "tomato" }} />
+            </IconButton>
+            <IconButton style={{ flex: "1" }}>
+              <AppsIcon style={{ color: "tomato" }} />
+            </IconButton>
+            <IconButton style={{ flex: "1" }}>
+              <ContactsIcon style={{ color: "tomato" }} />
+            </IconButton>
+          </Toolbar>
+        </AppBar>
+      </Hidden>
     </>
   );
 };

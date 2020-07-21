@@ -158,7 +158,7 @@ const Contacts = () => {
                 Facebook:
               </Typography>
               <Typography variant="subtitle1" color="secondary">
-                https://www.facebook.com/jomarkrazonpangan
+                fb.com/jomarkrazonpangan
               </Typography>
             </Box>
           </Box>
