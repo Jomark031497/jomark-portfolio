@@ -26,17 +26,16 @@ import MobileRightMenuSlider from "@material-ui/core/Drawer";
 
 //end of material-ui stuffs
 
+import { HashLink as HLink } from "react-router-hash-link";
+
 //Local files/images
 import avatar from "../portfolio-project-files/alex.jpg";
 //end of local files
 
-//react-router stuffs
-import { Link } from "react-router-dom";
-//end of react-router stuffs
-
 const useStyles = makeStyles((theme) => ({
   root: {
     letterSpacing: "0.2rem",
+    minHeight: "10vh",
   },
   appBar: {
     background: "#222",
@@ -89,22 +88,22 @@ const menuItems = [
   {
     listIcon: <HomeIcon />,
     listText: "Home",
-    listPath: "/jomark-portfolio/",
+    listPath: "/jomark-portfolio/#section1",
   },
   {
     listIcon: <CodeIcon />,
     listText: "Skills",
-    listPath: "/jomark-portfolio/skills",
+    listPath: "/jomark-portfolio/#section2",
   },
   {
     listIcon: <AppsIcon />,
     listText: "Portfolio",
-    listPath: "/jomark-portfolio/portfolio",
+    listPath: "/jomark-portfolio/#section3",
   },
   {
     listIcon: <ContactsIcon />,
     listText: "Contacts",
-    listPath: "/jomark-portfolio/contacts",
+    listPath: "/jomark-portfolio/#section4",
   },
 ];
 
@@ -133,7 +132,7 @@ const Navbar = () => {
       <Divider />
       <List>
         {menuItems.map((item, key) => (
-          <ListItem button key={key} component={Link} to={item.listPath}>
+          <ListItem button key={key} component={HLink} to={item.listPath}>
             <ListItemIcon className={classes.listItem}>
               {item.listIcon}
             </ListItemIcon>
@@ -162,21 +161,30 @@ const Navbar = () => {
             </Box>
             <Hidden xsDown>
               <Box component="ul" className={classes.listContainer}>
-                <Link to="/jomark-portfolio/" className={classes.links}>
+                <HLink
+                  to="/jomark-portfolio/#section1"
+                  className={classes.links}
+                >
                   <li>Home</li>
-                </Link>
-                <Link to="/jomark-portfolio/skills" className={classes.links}>
+                </HLink>
+                <HLink
+                  to="/jomark-portfolio/#section2"
+                  className={classes.links}
+                >
                   <li>Skills</li>
-                </Link>
-                <Link
-                  to="/jomark-portfolio/portfolio"
+                </HLink>
+                <HLink
+                  to="/jomark-portfolio/#section3"
                   className={classes.links}
                 >
                   <li>Projects</li>
-                </Link>
-                <Link to="/jomark-portfolio/contacts" className={classes.links}>
+                </HLink>
+                <HLink
+                  to="/jomark-portfolio/#section4"
+                  className={classes.links}
+                >
                   <li>Contacts</li>
-                </Link>
+                </HLink>
               </Box>
             </Hidden>
             <MobileRightMenuSlider

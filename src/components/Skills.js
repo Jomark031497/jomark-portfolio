@@ -42,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     margin: "0 20px",
   },
+  banner: {},
 }));
 
 const mySkills = [
@@ -75,7 +76,8 @@ const mySkills = [
   },
   {
     name: "Python 3",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    description:
+      "Functions, classes, Data Structures, modules, Type conversion, List, Dictionaries, OOP concepts ",
     imgSrc: PYTHON,
   },
 
@@ -108,7 +110,7 @@ const Skills = () => {
     <>
       <Box component="div" className={classes.root}>
         <Grid container>
-          <Grid item container justify="center">
+          <Grid item container justify="center" className={classes.banner}>
             <Typography variant="h3" color="primary">
               Skills
             </Typography>
@@ -116,7 +118,7 @@ const Skills = () => {
 
           <Grid item container spacing={3} className={classes.skillCards}>
             {mySkills.map((skill, index) => (
-              <Grid item xs={12} sm={6} md={4} key={index}>
+              <Grid item xs={10} sm={6} md={3} key={index}>
                 <Card className={classes.cardContainer}>
                   <CardMedia
                     className={classes.cardMedia}

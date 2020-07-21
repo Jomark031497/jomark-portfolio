@@ -5,24 +5,16 @@ import SendIcon from "@material-ui/icons/Send";
 import emailjs from "emailjs-com";
 
 const useStyles = makeStyles((theme) => ({
-  formContainer: {
+  cards: {
     color: theme.palette.primary.main,
     textAlign: "center",
     padding: "10px",
     background: "rgba(0,0,0,0.4)",
-    margin: "20px 20px",
     height: "100%",
     borderRadius: "20px",
+    margin: "1rem",
   },
-  contactCard: {
-    color: theme.palette.primary.main,
-    textAlign: "center",
-    height: "100%",
-    margin: "20px 20px",
-    background: "rgba(0,0,0,0.4)",
-    padding: "10px",
-    borderRadius: "20px",
-  },
+
   button: {
     marginTop: "1rem",
     color: "tomato",
@@ -66,9 +58,9 @@ const Contacts = () => {
 
   return (
     <Box className={classes.root}>
-      <Grid container justify="center">
-        <Grid item xs={12} sm={6} md={4}>
-          <Box className={classes.formContainer}>
+      <Grid container justify="center" className={classes.gridContainer}>
+        <Grid item xs={10} sm={6} md={4}>
+          <Box className={classes.cards}>
             <form onSubmit={handleSubmit} className="form-container">
               <Typography variant="h6">SEND ME A FEEDBACK!</Typography>
               <TextField
@@ -135,8 +127,8 @@ const Contacts = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} sm={6} md={4}>
-          <Box component="div" className={classes.contactCard}>
+        <Grid item xs={10} sm={6} md={4}>
+          <Box component="div" className={classes.cards}>
             <Typography variant="h6">CONTACT CARD</Typography>
             <br />
             <Box component="div" className={classes.contactInfo}>
