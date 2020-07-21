@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Grid, Typography, Button, TextField } from "@material-ui/core";
+import { Box, Grid, Typography, Button, TextField, Hidden } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import SendIcon from "@material-ui/icons/Send";
 import emailjs from "emailjs-com";
@@ -127,6 +127,9 @@ const Contacts = () => {
           </Box>
         </Grid>
 
+        <Hidden smUp>
+          <Grid item container style={{ margin: "1rem" }} />
+        </Hidden>
         <Grid item xs={10} sm={6} md={4}>
           <Box component="div" className={classes.cards}>
             <Typography variant="h6">CONTACT CARD</Typography>
