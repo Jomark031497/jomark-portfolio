@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00ce2426dd72e1651447c9c0b9a653b3",
+    "revision": "1fd83e7d7c8731460bc82a73590be990",
     "url": "/jomark-portfolio/index.html"
   },
   {
-    "revision": "38861e1f5e8dc376e69c",
-    "url": "/jomark-portfolio/static/css/main.ba8569ca.chunk.css"
+    "revision": "ca42c85c0664d3d3ee3e",
+    "url": "/jomark-portfolio/static/css/main.6ebd97cb.chunk.css"
   },
   {
-    "revision": "272475d81fb7c06464c1",
-    "url": "/jomark-portfolio/static/js/2.282ef907.chunk.js"
+    "revision": "b33b4105dd3382ed615f",
+    "url": "/jomark-portfolio/static/js/2.cff09279.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/jomark-portfolio/static/js/2.282ef907.chunk.js.LICENSE.txt"
+    "url": "/jomark-portfolio/static/js/2.cff09279.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "38861e1f5e8dc376e69c",
-    "url": "/jomark-portfolio/static/js/main.58b7062a.chunk.js"
+    "revision": "ca42c85c0664d3d3ee3e",
+    "url": "/jomark-portfolio/static/js/main.5f823d52.chunk.js"
   },
   {
     "revision": "38d71420f9a8f5eca10d",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dfa7e52d37a44abbfbc2e1dd0cf156b3",
     "url": "/jomark-portfolio/static/media/mongo.dfa7e52d.png"
+  },
+  {
+    "revision": "de7382fb975ea4eae162dacb137f8a0a",
+    "url": "/jomark-portfolio/static/media/my-bg.de7382fb.jpg"
   },
   {
     "revision": "8f3111291bafde84ab2ee9cb0871e172",

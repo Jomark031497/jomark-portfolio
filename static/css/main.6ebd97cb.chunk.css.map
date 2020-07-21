@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,iFAAoE,CACpE,yBACF","file":"main.6ebd97cb.chunk.css","sourcesContent":["body {\n  background: url(./portfolio-project-files/my-bg.jpg) no-repeat fixed;\n  background-size: 100% 100%;\n}\n\n"]}

@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/jomark-portfolio/static/css/main.ba8569ca.chunk.css",
-    "main.js": "/jomark-portfolio/static/js/main.58b7062a.chunk.js",
-    "main.js.map": "/jomark-portfolio/static/js/main.58b7062a.chunk.js.map",
+    "main.css": "/jomark-portfolio/static/css/main.6ebd97cb.chunk.css",
+    "main.js": "/jomark-portfolio/static/js/main.5f823d52.chunk.js",
+    "main.js.map": "/jomark-portfolio/static/js/main.5f823d52.chunk.js.map",
     "runtime-main.js": "/jomark-portfolio/static/js/runtime-main.2b713253.js",
     "runtime-main.js.map": "/jomark-portfolio/static/js/runtime-main.2b713253.js.map",
-    "static/js/2.282ef907.chunk.js": "/jomark-portfolio/static/js/2.282ef907.chunk.js",
-    "static/js/2.282ef907.chunk.js.map": "/jomark-portfolio/static/js/2.282ef907.chunk.js.map",
+    "static/js/2.cff09279.chunk.js": "/jomark-portfolio/static/js/2.cff09279.chunk.js",
+    "static/js/2.cff09279.chunk.js.map": "/jomark-portfolio/static/js/2.cff09279.chunk.js.map",
     "index.html": "/jomark-portfolio/index.html",
-    "precache-manifest.033917f736faf114c9d823a126a376c7.js": "/jomark-portfolio/precache-manifest.033917f736faf114c9d823a126a376c7.js",
+    "precache-manifest.d9a962e82a12c37b42e4cf0664a9e402.js": "/jomark-portfolio/precache-manifest.d9a962e82a12c37b42e4cf0664a9e402.js",
     "service-worker.js": "/jomark-portfolio/service-worker.js",
-    "static/css/main.ba8569ca.chunk.css.map": "/jomark-portfolio/static/css/main.ba8569ca.chunk.css.map",
-    "static/js/2.282ef907.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.282ef907.chunk.js.LICENSE.txt",
+    "static/css/main.6ebd97cb.chunk.css.map": "/jomark-portfolio/static/css/main.6ebd97cb.chunk.css.map",
+    "static/js/2.cff09279.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.cff09279.chunk.js.LICENSE.txt",
     "static/media/MYSQL.png": "/jomark-portfolio/static/media/MYSQL.4bdfc7a5.png",
     "static/media/alex.jpg": "/jomark-portfolio/static/media/alex.331ab475.jpg",
     "static/media/css.png": "/jomark-portfolio/static/media/css.d0dcde7e.png",
@@ -20,6 +20,7 @@
     "static/media/java.png": "/jomark-portfolio/static/media/java.86059004.png",
     "static/media/javascript.png": "/jomark-portfolio/static/media/javascript.490c2220.png",
     "static/media/mongo.png": "/jomark-portfolio/static/media/mongo.dfa7e52d.png",
+    "static/media/App.css": "/jomark-portfolio/static/media/my-bg.de7382fb.jpg",
     "static/media/node.png": "/jomark-portfolio/static/media/node.8f311129.png",
     "static/media/placeholder.png": "/jomark-portfolio/static/media/placeholder.f874af49.png",
     "static/media/python.png": "/jomark-portfolio/static/media/python.a59e71db.png",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2b713253.js",
-    "static/js/2.282ef907.chunk.js",
-    "static/css/main.ba8569ca.chunk.css",
-    "static/js/main.58b7062a.chunk.js"
+    "static/js/2.cff09279.chunk.js",
+    "static/css/main.6ebd97cb.chunk.css",
+    "static/js/main.5f823d52.chunk.js"
   ]
 }
