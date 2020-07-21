@@ -87,8 +87,7 @@ const useStyles = makeStyles((theme) => ({
     top: "auto",
     bottom: "0",
     background: "rgba(34,34,34,0.8)",
- 
-   
+
     bottomNavIcons: {
       display: "flex",
       justifyContent: "space-around",
@@ -98,22 +97,22 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   {
-    listIcon: <HomeIcon />,
+    listIcon: <HomeIcon style={{ color: "tomato" }}/>,
     listText: "Home",
     listPath: "/jomark-portfolio/#section1",
   },
   {
-    listIcon: <CodeIcon />,
+    listIcon: <CodeIcon style={{ color: "tomato" }}/>,
     listText: "Skills",
     listPath: "/jomark-portfolio/#section2",
   },
   {
-    listIcon: <AppsIcon />,
+    listIcon: <AppsIcon style={{ color: "tomato" }}/>,
     listText: "Portfolio",
     listPath: "/jomark-portfolio/#section3",
   },
   {
-    listIcon: <ContactsIcon />,
+    listIcon: <ContactsIcon style={{ color: "tomato" }}/>,
     listText: "Contacts",
     listPath: "/jomark-portfolio/#section4",
   },
@@ -163,7 +162,6 @@ const Navbar = () => {
       <Box component="nav" className={classes.root}>
         <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>
-            
             <Box component="div" className={classes.titleBar}>
               <Typography variant="h4">Jomarks' Portfolio</Typography>
             </Box>
@@ -210,29 +208,19 @@ const Navbar = () => {
         <AppBar
           position="fixed"
           className={classes.bottomNav}
-          justifyContent="space-around"
-          alignItems="center"
         >
           <Toolbar>
             <IconButton
               onClick={toggleSlider("right", true)}
-              style={{marginRight: "1rem"}}
+              style={{ marginRight: "1rem" }}
             >
               <MenuIcon style={{ color: "tomato" }} />
             </IconButton>
-            <IconButton style={{ flex: "1" }}>
-              <HomeIcon style={{ color: "tomato" }} />
-            </IconButton>
-
-            <IconButton style={{ flex: "1" }}>
-              <CodeIcon style={{ color: "tomato" }} />
-            </IconButton>
-            <IconButton style={{ flex: "1" }}>
-              <AppsIcon style={{ color: "tomato" }} />
-            </IconButton>
-            <IconButton style={{ flex: "1" }}>
-              <ContactsIcon style={{ color: "tomato" }} />
-            </IconButton>
+            {menuItems.map((myItem,key) => (
+              <IconButton style={{ flex: "1" }} key={key}>
+                <HLink to={`${myItem.listPath}`}>{myItem.listIcon}</HLink>
+              </IconButton>
+            ))}
           </Toolbar>
         </AppBar>
       </Hidden>

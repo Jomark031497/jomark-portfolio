@@ -24,9 +24,6 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: "3rem",
   },
 
-  footer: {
-    alignItems: "center",
-  },
 }));
 const Header = () => {
   const classes = useStyles();

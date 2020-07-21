@@ -3,3 +3,9 @@ body {
   background-size: 100% 100%;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    background: url(./portfolio-project-files/my-bg.jpg) no-repeat fixed;
+    background-size: auto 100%;
+  }
+}
