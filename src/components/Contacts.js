@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     background: "rgba(0,0,0,0.4)",
     height: "100%",
     borderRadius: "20px",
-    margin: "1rem",
+    margin: "20px",
   },
 
   button: {
@@ -135,29 +135,29 @@ const Contacts = () => {
               <Typography variant="subtitle1" color="primary">
                 Email:
               </Typography>
-              <Typography variant="subtitle1" color="secondary">
+              <Typography variant="body2" color="secondary">
                 jomarkrazonpangan@gmail.com
               </Typography>
               <br />
               <Typography variant="subtitle1" color="primary">
                 Phone:
               </Typography>
-              <Typography variant="subtitle1" color="secondary">
+              <Typography variant="body2" color="secondary">
                 (+63) 995 - 734 -0183
               </Typography>
 
               <br />
-              <Typography variant="subtitle1" color="primary    ">
+              <Typography variant="subtitle1" color="primary">
                 Github:
               </Typography>
-              <Typography variant="subtitle1" color="secondary">
+              <Typography variant="body2" color="secondary">
                 https://github.com/Jomark031497
               </Typography>
               <br />
-              <Typography variant="subtitle1" color="primary    ">
+              <Typography variant="subtitle1" color="primary">
                 Facebook:
               </Typography>
-              <Typography variant="subtitle1" color="secondary">
+              <Typography variant="body2" color="secondary">
                 fb.com/jomarkrazonpangan
               </Typography>
             </Box>

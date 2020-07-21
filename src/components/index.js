@@ -11,7 +11,6 @@ const useStyles = makeStyles((theme) => ({
   divider: {
     border: "0.5rem solid #222",
     margin: "2rem auto",
-    borderRadius: "20px",
   },
 }));
 const Home = () => {

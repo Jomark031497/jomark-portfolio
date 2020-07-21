@@ -118,7 +118,7 @@ const Skills = () => {
 
           <Grid item container spacing={3} className={classes.skillCards}>
             {mySkills.map((skill, index) => (
-              <Grid item xs={10} sm={6} md={3} key={index}>
+              <Grid item xs={12} sm={6} md={3} key={index}>
                 <Card className={classes.cardContainer}>
                   <CardMedia
                     className={classes.cardMedia}
