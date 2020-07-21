@@ -163,11 +163,7 @@ const Navbar = () => {
       <Box component="nav" className={classes.root}>
         <AppBar position="fixed" className={classes.appBar}>
           <Toolbar>
-            <Hidden smUp>
-              <IconButton onClick={toggleSlider("right", true)}>
-                <MenuIcon style={{ color: "tomato" }} />
-              </IconButton>
-            </Hidden>
+            
             <Box component="div" className={classes.titleBar}>
               <Typography variant="h4">Jomarks' Portfolio</Typography>
             </Box>
