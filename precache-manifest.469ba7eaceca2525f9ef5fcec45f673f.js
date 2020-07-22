@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5fe2eed07c759d736d26d37f0c9fc36d",
+    "revision": "8f92f4e4cd446e1775d3e107391eb7b5",
     "url": "/jomark-portfolio/index.html"
   },
   {
-    "revision": "bfbd7f90c2dad402184b",
+    "revision": "a2a72f83ef11c62e7839",
     "url": "/jomark-portfolio/static/css/main.4ccec3fc.chunk.css"
   },
   {
-    "revision": "14eb5bf347563bc7947d",
-    "url": "/jomark-portfolio/static/js/2.e224bc34.chunk.js"
+    "revision": "f35933505b816b7dbb5c",
+    "url": "/jomark-portfolio/static/js/2.c8618a1a.chunk.js"
   },
   {
     "revision": "84f48c9a090ba2f8cc4a11e48dd3dad0",
-    "url": "/jomark-portfolio/static/js/2.e224bc34.chunk.js.LICENSE.txt"
+    "url": "/jomark-portfolio/static/js/2.c8618a1a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bfbd7f90c2dad402184b",
-    "url": "/jomark-portfolio/static/js/main.c72c1833.chunk.js"
+    "revision": "a2a72f83ef11c62e7839",
+    "url": "/jomark-portfolio/static/js/main.fd3d5f89.chunk.js"
   },
   {
     "revision": "38d71420f9a8f5eca10d",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jomark-portfolio/static/media/MYSQL.4bdfc7a5.png"
   },
   {
-    "revision": "331ab475fed06c09fdb4f74affd5a5e7",
-    "url": "/jomark-portfolio/static/media/alex.331ab475.jpg"
+    "revision": "9fee32e3f6e167a777716b196d14cd0b",
+    "url": "/jomark-portfolio/static/media/avatar-jomark.9fee32e3.jpg"
   },
   {
     "revision": "d0dcde7e24dcbccada126b4d2f30d99a",

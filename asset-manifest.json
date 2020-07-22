@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/jomark-portfolio/static/css/main.4ccec3fc.chunk.css",
-    "main.js": "/jomark-portfolio/static/js/main.c72c1833.chunk.js",
-    "main.js.map": "/jomark-portfolio/static/js/main.c72c1833.chunk.js.map",
+    "main.js": "/jomark-portfolio/static/js/main.fd3d5f89.chunk.js",
+    "main.js.map": "/jomark-portfolio/static/js/main.fd3d5f89.chunk.js.map",
     "runtime-main.js": "/jomark-portfolio/static/js/runtime-main.2b713253.js",
     "runtime-main.js.map": "/jomark-portfolio/static/js/runtime-main.2b713253.js.map",
-    "static/js/2.e224bc34.chunk.js": "/jomark-portfolio/static/js/2.e224bc34.chunk.js",
-    "static/js/2.e224bc34.chunk.js.map": "/jomark-portfolio/static/js/2.e224bc34.chunk.js.map",
+    "static/js/2.c8618a1a.chunk.js": "/jomark-portfolio/static/js/2.c8618a1a.chunk.js",
+    "static/js/2.c8618a1a.chunk.js.map": "/jomark-portfolio/static/js/2.c8618a1a.chunk.js.map",
     "index.html": "/jomark-portfolio/index.html",
-    "precache-manifest.c932a24cdb53b14be0756dfe57d94e59.js": "/jomark-portfolio/precache-manifest.c932a24cdb53b14be0756dfe57d94e59.js",
+    "precache-manifest.469ba7eaceca2525f9ef5fcec45f673f.js": "/jomark-portfolio/precache-manifest.469ba7eaceca2525f9ef5fcec45f673f.js",
     "service-worker.js": "/jomark-portfolio/service-worker.js",
     "static/css/main.4ccec3fc.chunk.css.map": "/jomark-portfolio/static/css/main.4ccec3fc.chunk.css.map",
-    "static/js/2.e224bc34.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.e224bc34.chunk.js.LICENSE.txt",
+    "static/js/2.c8618a1a.chunk.js.LICENSE.txt": "/jomark-portfolio/static/js/2.c8618a1a.chunk.js.LICENSE.txt",
     "static/media/MYSQL.png": "/jomark-portfolio/static/media/MYSQL.4bdfc7a5.png",
-    "static/media/alex.jpg": "/jomark-portfolio/static/media/alex.331ab475.jpg",
+    "static/media/avatar-jomark.jpg": "/jomark-portfolio/static/media/avatar-jomark.9fee32e3.jpg",
     "static/media/css.png": "/jomark-portfolio/static/media/css.d0dcde7e.png",
     "static/media/express.png": "/jomark-portfolio/static/media/express.ac171125.png",
     "static/media/html5.png": "/jomark-portfolio/static/media/html5.65178bf9.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2b713253.js",
-    "static/js/2.e224bc34.chunk.js",
+    "static/js/2.c8618a1a.chunk.js",
     "static/css/main.4ccec3fc.chunk.css",
-    "static/js/main.c72c1833.chunk.js"
+    "static/js/main.fd3d5f89.chunk.js"
   ]
 }
