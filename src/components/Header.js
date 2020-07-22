@@ -1,6 +1,6 @@
 import React from "react";
 import { Avatar, Box, Typography, Grid } from "@material-ui/core";
-import avatar from "../portfolio-project-files/alex.jpg";
+import avatar from "../portfolio-project-files/avatar-jomark.jpg";
 import Typed from "react-typed";
 import { makeStyles } from "@material-ui/styles";
 

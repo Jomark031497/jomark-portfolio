@@ -29,7 +29,7 @@ import MobileRightMenuSlider from "@material-ui/core/Drawer";
 import { HashLink as HLink } from "react-router-hash-link";
 
 //Local files/images
-import avatar from "../portfolio-project-files/alex.jpg";
+import avatar from "../portfolio-project-files/avatar-jomark.jpg";
 //end of local files
 
 const useStyles = makeStyles((theme) => ({
