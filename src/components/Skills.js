@@ -83,22 +83,22 @@ const mySkills = [
 
   {
     name: "Express JS",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    description: "Route Handling, Middlewares, REST API, Event Handling, Input Validation",
     imgSrc: EXPRESS,
   },
   {
     name: "NodeJS",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    description: "Modules (OS, File System, Events), Usage of APIs/Libraries/Frameworks",
     imgSrc: NODE,
   },
   {
     name: "MongoDB",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    description: "Models and Collections, CRUD operations (alongside Node/Express) ",
     imgSrc: MONGO,
   },
   {
     name: "mySQL",
-    description: "lorem ipsum greek stuffs that is a placeholder for evetryone",
+    description: "CRUD operations, queries/subqueries (SELECT, WHERE, AND/OR/NOT, LIMIT, LIKE, etc)",
     imgSrc: MYSQL,
   },
 ];

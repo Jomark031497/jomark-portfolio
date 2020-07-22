@@ -47,8 +47,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
   },
   techImage: {
-    height: "60px",
-    width: "50px",
+    height: "30px",
+    width: "30px",
   },
   techContainer: {
     display: "flex",
@@ -59,43 +59,50 @@ const useStyles = makeStyles((theme) => ({
 const myProjects = [
   {
     title: "Taskerino",
-    description: "A Todo-List App",
+    description:
+      "A project-based todo-list web app I made as part of The Odin Project's curriculum.",
     usedTech: [REACT, HTML5, CSS, JSCRIPT],
     imgSrc: placeholderImg,
   },
   {
     title: "Wheres Waldo?",
-    description: "A classic game where you are tasked to find waldog",
-    usedTech: [REACT, HTML5, CSS, JSCRIPT, NODE, EXPRESS, MONGO],
+    description:
+      "A classic game where you are tasked to find waldo and other special characters. Done as a part of The Odin Project's curriculum.",
+    usedTech: [REACT, NODE, EXPRESS, MONGO],
     imgSrc: placeholderImg,
   },
   {
     title: "Weatherino",
-    description: "A Weather App",
+    description:
+      "A Weather App created using React and OpenWeatherMap API. Done as a part of The Odin Project's Curriculum.",
     usedTech: [REACT, HTML5, CSS, JSCRIPT],
     imgSrc: placeholderImg,
   },
   {
     title: "Book-Tracker",
-    description: "A Book Tracker App",
+    description:
+      "A Book Tracker App that allow users to add books with their authors,genre, personal rating, and indicate if the user has already read it or not.",
     usedTech: [REACT, HTML5, CSS, JSCRIPT],
     imgSrc: placeholderImg,
   },
   {
     title: "Integrated Patient Management System",
-    description: "A Paperless, digital Hospital Management System",
+    description:
+      "A Paperless, digital Hospital Management System. This system computerizes information keeping of patients, To permit Doctors to retrieve entire patient history instantly, and help minimize paperworks.  ",
     usedTech: [JAVA, MYSQL],
     imgSrc: placeholderImg,
   },
   {
     title: "Self Navigating Moss Removing Machine",
-    description: "A Shitty Thesis which cleans moss",
+    description:
+      "A Machine/Vehicle that cleans moss on a specific area. This project used  Python libraries such as NumPy, OpenCV and Tensorflow.",
     usedTech: [PYTHON],
     imgSrc: placeholderImg,
   },
   {
     title: "Truck Drivers Drowsiness Detector",
-    description: "A Shitty Thesis which detects if the driver is sleepy/drowsy",
+    description:
+      "A safety mechanism device which will wake up the Truck driver if it detects drowsiness. This project used the Python library OpenCV and HaarCascade.",
     usedTech: [PYTHON],
     imgSrc: placeholderImg,
   },
