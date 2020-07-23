@@ -155,14 +155,14 @@ const Portfolio = () => {
                   </div>
                 </CardContent>
 
-                <CardActions className={classes.cardButtons}>
+                {/* <CardActions className={classes.cardButtons}>
                   <Button size="small" color="primary" variant="outlined">
                     Source Code
                   </Button>
                   <Button size="small" color="primary" variant="outlined">
                     Live Demo
                   </Button>
-                </CardActions>
+                </CardActions> */}
               </Card>
             </Grid>
           ))}
