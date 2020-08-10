@@ -58,6 +58,13 @@ const useStyles = makeStyles((theme) => ({
 
 const myProjects = [
   {
+    title: "Bloggerino",
+    description:
+      "A Fullstack blogging app created using MERN Stack where you can post or share your blogs.",
+    usedTech: [REACT, NODE, EXPRESS, MONGO, JSCRIPT],
+    imgSrc: placeholderImg,
+  },
+  {
     title: "Taskerino",
     description:
       "A project-based todo-list web app I made as part of The Odin Project's curriculum.",
